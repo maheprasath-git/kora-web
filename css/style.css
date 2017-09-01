@@ -1,4 +1,3 @@
-
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
@@ -1354,11 +1353,17 @@ h5.underline:after {
 
 
 /*
-*Sunita Explore page desing implementation
+*Sunita Explore and blog page desing codes
 */
 
 .section-expr-blog .pad-40px {
     padding-top: 40px;
+    padding-bottom: 103px;
+}
+
+.section-expr-blog .pad-20px {
+    padding-top: 40px;
+    padding-bottom: 53px;
 }
 
 .expr-section-1 .btn {
@@ -1374,7 +1379,6 @@ h5.underline:after {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.62);
     border-color: rgba(0, 0, 0, 0.06);
-    /* opacity: 0.9; */
     border-radius: 50px;
 }
 
@@ -1387,6 +1391,7 @@ h5.underline:after {
 .section-expr-blog .btn-desingation {
     border: 1px solid #bf182e;
     border-radius: 6px;
+    margin-bottom: 28px;
     color: #bf182e;
     text-transform: uppercase;
     font-weight: 500;
@@ -1409,15 +1414,14 @@ h5.underline:after {
     text-align: center;
     font-weight: 500;
 }
-​
-.section-expr-blog .exp-blog-sectoin h5 {
+
+.exp-blog-section h5 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 26px;
-    padding-top: 28px;
     font-style: italic;
 }
 
-.section-expr-blog .exp-blog-sectoin p {
+.section-expr-blog .exp-blog-section p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     padding-top: 10px;
@@ -1431,7 +1435,6 @@ h5.underline:after {
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, .075), 0 0 8px rgba(103, 103, 103, 0.16);
     box-shadow: 3px 1px 16px 8px rgba(220, 220, 220, 0.66);
 }
-
 
 .enquiry-form>.col-lg-3,
 .col-md-3 {
@@ -1501,18 +1504,16 @@ h5.underline:after {
 
 .enquiry-form .booking-info {
     border: 1px solid #ddd;
-    margin-top: 35px;
+    margin: 35px 0px;
     border-radius: 8px;
     padding: 10px 20px;
 }
 
-.booking-info h5,
-h6,
-a {
-    font-family: 'Open Sans', sans-serif;
+.enquiry-form .booking-info h6 {
+    font-size: 14px;
 }
 
-.booking-info h5 {
+.enquiry-form .booking-info h5 {
     font-size: 16px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
@@ -1522,14 +1523,93 @@ a {
     margin-bottom: 15px;
 }
 
-.booking-info>h6 {
-    font-size: 14px;
-}
-
 .booking-info a {
     color: #459ac9;
     font-weight: 800;
     font-size: 14px;
+}
+
+.expr-weekdays .expr-day-list {
+    margin: 16px 0px;
+}
+
+.expr-weekdays button {
+    background: #bf182e;
+    border: 1px solid #bf182e;
+    font-weight: bold;
+    padding: 3px 12px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+
+.exp-blog-section a.expr-week-readmore {
+    text-align: center;
+    padding: 10px 57px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #707070;
+}
+
+
+/*
+*Blog page 
+*/
+
+.kora-blog .kora-blg-img-1 {
+    height: 500px;
+}
+
+.kora-blog .bg_black:before {
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.kora-blog .kora-blg-img-2 {
+    height: 57vh;
+}
+
+.blg-rightbar {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.blg-rightbar .blg-bgcolor-black {
+    background: #000;
+}
+
+.blg-rightbar .blg-bgcolor-red {
+    background: #bf182e;
+}
+
+.blg-rightbar .blg-rb-header {
+    color: #fff;
+    padding: 13px 59px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.blg-rightbar .blg-rb-body {
+    padding: 10px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.blg-rb-body:last-child {
+    border: 0px solid #ddd;
+}
+
+.blg-rightbar .blg-rb-body .blg-rb-title {
+    font-weight: 800;
+    color: #000;
+    text-transform: uppercase;
 }
 
 @media only screen and (min-width: 480px) and (max-width: 765px) {
