@@ -72,6 +72,10 @@ pre {
     font-family: 'Roboto', sans-serif !important;
 }
 
+.font-secondary-futura {
+    font-family: futura_t_otbook;
+}
+
 h1,
 h2,
 h3,
@@ -1435,14 +1439,14 @@ h5.underline:after {
 }
 
 .btn.red {
-    border-color: #bf182e;
+    border: 1px solid #bf182e;
     color: #bf182e;
 }
 
 .btn:hover {
-    background: #ddd;
-    border-color: #ddd;
-    color: #000;
+    background: #fff;
+    border: 1px solid #bf182e;
+    color: #bf182e;
 }
 
 .btn.white:hover {
@@ -1490,7 +1494,7 @@ h5.underline:after {
     font-family: futura_t_otbook;
 }
 
-.section-expr-blog .btn-desingation {
+.section-expr-blog a.btn.btn-desingation {
     border: 1px solid #bf182e;
     border-radius: 6px;
     margin-bottom: 28px;
@@ -1500,6 +1504,12 @@ h5.underline:after {
     font-size: 26px;
     padding: 7px 33px;
     font-family: 'Roboto', sans-serif;
+}
+
+.section-expr-blog a.btn.btn-desingation:hover {
+    border: 1px solid #bf182e;
+    background: #bf182e;
+    color: #fff;
 }
 
 .section-expr-4 {
@@ -1512,7 +1522,7 @@ h5.underline:after {
 }
 
 .section-expr-4 p {
-    font-size: 17px;
+    font-size: 18px;
     text-align: center;
     font-weight: 500;
 }
@@ -1605,6 +1615,12 @@ h5.underline:after {
     border-radius: 8px;
 }
 
+#enquiry-body .btn-enquiry-sub:hover {
+    background: #fff;
+    border: 1px solid #be182e;
+    color: #be182e;
+}
+
 .exp-blog-section .expr-itineary-socicons {
     border: 1px solid #ddd;
     min-height: 89px;
@@ -1633,21 +1649,40 @@ h5.underline:after {
 .exp-blog-section .expr-itineary-socicons .itenary-sicons ul li {
     margin: 5px;
     cursor: pointer;
+    background-repeat: no-repeat;
+    height: 49px;
+    width: 49px;
+}
+
+.exp-blog-section .expr-itineary-socicons .itenary-sicons ul li>a {
+    cursor: pointer;
+    padding: 2px 20px 27px 20px;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.exp-blog-section .expr-itineary-socicons .itenary-sicons ul li.iti-fb-icon {
+    background-image: url('../img/fb_circle.png');
 }
 
 .exp-blog-section .expr-itineary-socicons .itenary-sicons ul li.iti-fb-icon:hover {
     background-image: url('../img/facebook_circle_hover.png');
-    background-repeat: no-repeat;
+}
+
+.exp-blog-section .expr-itineary-socicons .itenary-sicons ul li.iti-twi-icon {
+    background-image: url('../img/twitter_circle.png');
 }
 
 .exp-blog-section .expr-itineary-socicons .itenary-sicons ul li.iti-twi-icon:hover {
     background-image: url('../img/twitter_circle_hover.png');
-    background-repeat: no-repeat;
+}
+
+.exp-blog-section .expr-itineary-socicons .itenary-sicons ul li.iti-fb-gp {
+    background-image: url('../img/google_plus_clircle.png');
 }
 
 .exp-blog-section .expr-itineary-socicons .itenary-sicons ul li.iti-fb-gp:hover {
     background-image: url('../img/goole_plus_circle_hover.png');
-    background-repeat: no-repeat;
 }
 
 .expr-itineary-socicons .itineray-text h4 {
@@ -1685,8 +1720,12 @@ h5.underline:after {
 
 .booking-info a {
     color: #459ac9;
-    font-weight: 800;
+    /* font-weight: 800; */
     font-size: 14px;
+}
+
+.booking-info a:hover {
+    color: #bf182e;
 }
 
 .expr-weekdays .expr-day-list {
