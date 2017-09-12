@@ -884,17 +884,30 @@ a:focus,
 }
 
 .section-2 a,
-.section-3 a,
-.section-6 a {
+.section-3 a{
     font-size: 20px;
     color: #000;
     /* text-decoration: underline; */
-    font-weight: 600;
+    font-weight: 400;
     margin-top: 4px;
     display: inline-block;
     border-bottom: 1px solid #000;
     line-height: 20px;
     margin-top: 9px;
+    padding: 10px 21px;
+}
+
+.section-6 a {
+    font-size: 20px;
+    color: #000;
+    /* text-decoration: underline; */
+    font-weight: 400;
+    margin-top: 4px;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    line-height: 20px;
+    margin-top: 9px;
+
 }
 
 .kora-bg-img-2,
@@ -1136,23 +1149,28 @@ a:focus,
 
 ::-webkit-input-placeholder {
     /* Chrome */
-    color: red;
+    color: #B7B7B7;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 6px 16px;
+
 }
 
 :-ms-input-placeholder {
     /* IE 10+ */
-    color: red;
+    color: #B7B7B7;
 }
 
 ::-moz-placeholder {
     /* Firefox 19+ */
-    color: red;
+    color:#B7B7B7;
     opacity: 1;
 }
 
 :-moz-placeholder {
     /* Firefox 4 - 18 */
-    color: red;
+    color: #B7B7B7;
     opacity: 1;
 }
 
@@ -1444,10 +1462,11 @@ h5.underline:after {
 }
 
 .btn:hover {
-    background: #fff;
+    background: #bf182e;
     border: 1px solid #bf182e;
-    color: #bf182e;
+    color: #fff;
 }
+
 
 .btn.white:hover {
     background: #fff;
@@ -1501,7 +1520,7 @@ h5.underline:after {
     color: #bf182e;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 20px;
     padding: 7px 33px;
     font-family: 'Roboto', sans-serif;
 }
@@ -1522,14 +1541,14 @@ h5.underline:after {
 }
 
 .section-expr-4 p {
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
     font-weight: 500;
 }
 
 .exp-blog-section h5 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 26px;
+    font-size: 22px;
     font-style: italic;
     letter-spacing: 0px;
 }
@@ -1543,9 +1562,10 @@ h5.underline:after {
 
 .expr-enquiry {
     border-radius: 8px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(103, 103, 103, 0.16);
+    /* -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(103, 103, 103, 0.16);
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, .075), 0 0 8px rgba(103, 103, 103, 0.16);
-    box-shadow: 3px 1px 16px 8px rgba(220, 220, 220, 0.66);
+    box-shadow: 3px 1px 16px 8px rgba(220, 220, 220, 0.66); */
+    border:1px solid #ebebeb;
 }
 
 .enquiry-form>.col-lg-3,
@@ -1634,7 +1654,7 @@ h5.underline:after {
 
 .exp-blog-section .expr-itineary-socicons .itineray-text h4 {
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 6px;
 }
 
@@ -1754,15 +1774,17 @@ h5.underline:after {
 
 .exp-blog-section .expr-week-readmore a {
     text-align: center;
-    padding: 10px 57px;
-    font-size: 18px;
+    padding: 10px 24px;
+    font-size: 20px;
     border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    border: 2px solid #707070;
-    font-weight: 500;
-    color: #707070;
+    border: 2px solid #464646;
+    font-weight: 400;
+    color: #464646;
 }
-
+.exp-blog-section .expr-week-readmore a:hover{
+    background: #464646;
+    color: #fff;
+}
 
 /*
 *Blog page 
@@ -1817,6 +1839,69 @@ h5.underline:after {
     font-weight: 800;
     color: #000;
     text-transform: uppercase;
+}
+/*About us */
+.about-sec-1 .kora-about-slider-1{
+    height: 633px;
+}
+.aboutus-container h3.abt-whatkora-title{
+    font-family: TimesNewRomanPS-MT;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #d0011b;
+    padding-top: 10px;
+}
+.aboutus-container .abt-what-kora{
+    font-size: 20px;
+    color: #b7b7b7;
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+.aboutus-container .abt-what-kora>p{
+    font-size: 20px;
+    color: #b7b7b7;
+}
+.abt-trip-count .kora-about-slider-2{
+    height: 530px;
+}
+.abt-trip-count .abt-counter{
+    text-align: center;
+    padding-top:20vh;
+}
+.abt-counter h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    color: #ffffff;
+}
+.abt-counter h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.abt-contactForm .kora-about-slider-3{
+    height:561px;
+}
+.abt-sunita-pro{
+    background-color: #f8f8f8;
+}
+.abt-sunita-pro .abt-profile{
+    padding: 30px 0px;
+}
+.abt-profile .abt-desc>.abt-profile-name{
+    font-family: TimesNewRomanPS-MT;
+    font-size: 40px;
+    font-weight: bold;
+    color: #d0011b;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.abt-profile .abt-desc>p{
+    font-size: 20px;
+    color: #464646;
 }
 
 @media only screen and (max-width: 767px) {
