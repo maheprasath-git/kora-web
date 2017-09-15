@@ -131,7 +131,34 @@ iframe {
     border: 0;
 }
 
+.form-control{
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ebebeb;
+}
+.form-control:focus{
+    border-color: #ebebeb;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #ebebeb;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #ebebeb;
+}
+.clearfix{
+    clear: both;
+}
 
+label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-align: left;
+    color: #464646;
+    font-weight: 400;
+}
 /*----------------------------
 --------- 2. Section ---------
 ----------------------------*/
@@ -1844,6 +1871,24 @@ h5.underline:after {
 .about-sec-1 .kora-about-slider-1{
     height: 633px;
 }
+.about-sec-1 .kora-about-caption h1{
+    font-family: TimesNewRomanPS-MT;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40vh;
+}
+.about-sec-1 .kora-about-caption h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+
+
 .aboutus-container h3.abt-whatkora-title{
     font-family: TimesNewRomanPS-MT;
     font-size: 40px;
@@ -1870,14 +1915,12 @@ h5.underline:after {
     padding-top:20vh;
 }
 .abt-counter h2{
-    font-family: 'Open Sans', sans-serif;
     font-size: 60px;
     font-weight: 800;
     text-align: center;
     color: #ffffff;
 }
 .abt-counter h6{
-    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     text-align: center;
     color: #ffffff;
@@ -1898,12 +1941,205 @@ h5.underline:after {
     color: #d0011b;
     margin-top: 0px;
     margin-bottom: 30px;
+    line-height: 0.7;
 }
 .abt-profile .abt-desc>p{
-    font-size: 20px;
+    font-size: 19px;
     color: #464646;
 }
+/*about us contact us section*/
+.abt-contus{
+    background: #fff;
+    border-radius: 5px;
+    min-height: 100px;
+}
 
+.abt-contus .abt-contus-header h4{
+    text-align:center;
+    font-weight: bold;
+    color: #464646;
+}
+.abt-contus .abt-contus-header h6{
+    text-align:center;
+    color: #b7b7b7;
+}
+.abt-contactForm>.col-md-5, .col-lg-5{
+    padding-right: 2px;
+    padding-left: 2px
+}
+.abt-contus>.abt-contus-header, .abt-contus-body{
+    padding: 20px 21px 5px;
+}
+.abt-contus .btn-abtus-sub{
+    background: #bf182e;
+    border: 1px solid #be182e;
+    text-transform: uppercase;
+    width: 100%;
+    color: #fff;
+    padding: 9px 12px;
+    outline: none;
+    border-radius: 8px;
+}
+/* .abt-contus-body > .col-md-6, .col-md-12{
+    padding-right: 5px;
+    padding-left: 7px
+} */
+/*Contact us page*/
+.kora-contact-banner{
+    height:633px;
+}
+
+.contact-sec-1 .kora-contact-banner{
+    height:633px;
+}
+.kora-contact-caption h1{
+    color:#fff;
+    padding-top:40vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 100;
+}
+.kora-contact-caption h6{
+    color:#fff;
+    font-size: 19px;
+    font-weight: 100;
+    text-align: center;
+}
+.contacus-form{
+    padding:0px 110px 40px;
+    
+}
+.contactus-quote{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.contactus-quote h5{
+    font-family: TimesNewRomanPS-MT;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: #353535;
+}
+.contactus-quote h5.quote-blod{
+    font-weight: bold;
+    margin-top:25px;
+}
+.contactus-socicons {
+    text-align: center;
+    padding-top:40px;
+}
+.contactus-socicons ul {
+        display: -webkit-inline-box;
+}
+.contactus-socicons ul li{
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    height: 49px;
+    width: 49px
+}
+.contactus-socicons ul li.cont-fb-icon {
+    background-image: url('../img/fb_circle.png');
+}
+
+.contactus-socicons ul li.cont-fb-icon:hover {
+    background-image: url('../img/facebook_circle_hover.png');
+}
+
+.contactus-socicons ul li.cont-twi-icon {
+    background-image: url('../img/twitter_circle.png');
+}
+
+.contactus-socicons ul li.cont-twi-icon:hover {
+    background-image: url('../img/twitter_circle_hover.png');
+}
+
+.contactus-socicons ul li.cont-gp-icon {
+    background-image: url('../img/google_plus_clircle.png');
+}
+
+.contactus-socicons ul li.cont-gp-icon:hover {
+    background-image: url('../img/goole_plus_circle_hover.png');
+}
+
+.contactus-socicons ul li.cont-insta-icon {
+    background-image: url('../img/instagram-icon.png');
+}
+
+.contactus-socicons ul li.cont-insta-icon:hover {
+    background-image: url('../img/instagram-icon.png');
+}
+.contus-form-sub{
+    border: solid 1px #ebebeb;
+    border-radius:5px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.contus-form-sub h4{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #464646;
+    letter-spacing: 0;
+    margin: 0px;
+}
+.contus-form-sub h5{
+    font-size: 13px;
+    text-align: center;
+    font-size: 13px;
+    color: #b7b7b7;
+    letter-spacing: 0;
+}
+
+.contus-form-sub .form-sub-body {
+    padding: 30px 13px 0px;
+}
+.form-sub-body .btn-contform-sub{
+    background: #bf182e;
+    border: 1px solid #be182e;
+    text-transform: uppercase;
+    width: 100%;
+    color: #fff;
+    padding: 9px 12px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-locations .location-address{
+    height: 430px;
+    width: 100%;
+}
+.location-address .address{
+    padding:20vh;
+}
+.address h4{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+.location-address .address > h4,p,a.contemail{
+    color: #fff;
+    text-align: center;
+}
+.location-address .address p{
+    font-size:18px;
+}
+.contact-locations .location-usa{
+    background-image: url('../img/contus-foot-usa.png');
+}
+.contact-locations .location-india{
+    background-image: url('../img/contus-foot-india.png');
+}
+
+.pad-right{
+    padding-right: 15px;
+}
+.rem-pad{
+    padding: 0px;
+}
 @media only screen and (max-width: 767px) {
     .header {
         background: #fff !important;
@@ -2020,7 +2256,7 @@ h5.underline:after {
     }
     .subscribes-inputs .sub-input,
     .subscribes-inputs .sub-button {
-        height: 30px;
+        height: 40px;
     }
     .subscribes-inputs .sub-input {
         width: 65%;
@@ -2089,6 +2325,7 @@ h5.underline:after {
     .footer h5 {
         font-size: 12px;
         padding: 0;
+        text-align: center;
     }
     ._hidden {
         height: 100%;
@@ -2115,6 +2352,15 @@ h5.underline:after {
     .grid-post:hover .post-small-desc:before {
         border-bottom-color: #fff !important;
     }
+    ::-webkit-input-placeholder {
+        /* Chrome */
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        padding: 6px 16px;
+    
+    }
+    
     /*
 *Sunita Explore and blog page desing codes
 */
@@ -2123,5 +2369,42 @@ h5.underline:after {
 @media only screen and (min-width: 480px) and (max-width: 765px) {
     .section h1 {
         font-size: 10vh;
+    }
+    .subscribes-inputs h4{
+        font-size: 12px;
+        padding-bottom: 0px;
+    }
+    .footer .copyright{
+        text-align: center;
+    }
+    .pad-right{
+        padding: 0px 41px
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+    .footer h5 {
+        font-size: 10px;
+        padding: 0;
+        text-align: center;
+    }
+    .footer .copyright{
+        text-align: center;
+    }
+    .subscribes-inputs h4{
+        font-size: 12px;
+        padding-bottom: 0px;
+    }
+    ::-webkit-input-placeholder {
+        /* Chrome */
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        padding: 6px 16px;
+    
+    }
+    .pad-right{
+        padding: 0px 41px
     }
 }
