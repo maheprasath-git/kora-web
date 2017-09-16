@@ -1139,7 +1139,9 @@ a:focus,
 
 
 /*Expolre page*/
-
+.kora-exp-img-1 {
+    height: 500px;
+}
 .section-2 .kora-exp-search .search-inputs {
     width: 60%;
     margin: -13px auto;
@@ -1523,7 +1525,7 @@ h5.underline:after {
 
 .expr-section-1 .expr-home-buttons {
     position: absolute;
-    bottom: 22px;
+    bottom: 192px;
 }
 
 .expr-section-1 .btn-trans {
@@ -1869,7 +1871,7 @@ h5.underline:after {
 }
 /*About us */
 .about-sec-1 .kora-about-slider-1{
-    height: 633px;
+    height: 500px;
 }
 .about-sec-1 .kora-about-caption h1{
     font-family: TimesNewRomanPS-MT;
@@ -1877,7 +1879,7 @@ h5.underline:after {
     font-weight: bold;
     text-align: center;
     color: #ffffff;
-    padding-top: 40vh;
+    padding-top: 30vh;
 }
 .about-sec-1 .kora-about-caption h3{
     font-size: 20px;
@@ -1891,7 +1893,7 @@ h5.underline:after {
 
 .aboutus-container h3.abt-whatkora-title{
     font-family: TimesNewRomanPS-MT;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     color: #d0011b;
@@ -1904,7 +1906,7 @@ h5.underline:after {
     padding-bottom: 30px;
 }
 .aboutus-container .abt-what-kora>p{
-    font-size: 20px;
+    font-size:16px;
     color: #b7b7b7;
 }
 .abt-trip-count .kora-about-slider-2{
@@ -1931,12 +1933,15 @@ h5.underline:after {
 .abt-sunita-pro{
     background-color: #f8f8f8;
 }
+.abt-sunita-pro img.abt-profile-img{
+    width:90%;
+}
 .abt-sunita-pro .abt-profile{
     padding: 30px 0px;
 }
 .abt-profile .abt-desc>.abt-profile-name{
     font-family: TimesNewRomanPS-MT;
-    font-size: 40px;
+    font-size:30px;
     font-weight: bold;
     color: #d0011b;
     margin-top: 0px;
@@ -1944,7 +1949,7 @@ h5.underline:after {
     line-height: 0.7;
 }
 .abt-profile .abt-desc>p{
-    font-size: 19px;
+    font-size: 17px;
     color: #464646;
 }
 /*about us contact us section*/
@@ -1986,15 +1991,15 @@ h5.underline:after {
 } */
 /*Contact us page*/
 .kora-contact-banner{
-    height:633px;
+    height:500px;
 }
 
 .contact-sec-1 .kora-contact-banner{
-    height:633px;
+    height:500px;
 }
 .kora-contact-caption h1{
     color:#fff;
-    padding-top:40vh;
+    padding-top:30vh;
     text-align: center;
     text-transform: uppercase;
     font-size: 38px;
@@ -2120,7 +2125,7 @@ h5.underline:after {
     font-size: 30px;
     font-weight: bold;
 }
-.location-address .address > h4,p,a.contemail{
+.location-address .address > h4,p.address-p,a.contemail{
     color: #fff;
     text-align: center;
 }
@@ -2133,6 +2138,26 @@ h5.underline:after {
 .contact-locations .location-india{
     background-image: url('../img/contus-foot-india.png');
 }
+/*Testimonials*/
+.kora-test-banner{
+    height: 500px;
+}
+.kora-test-caption h1{
+    padding-top: 30vh;
+    text-align:center;
+    font-weight: 100;
+    color:#fff;
+    font-size:39px;
+    text-transform: uppercase;
+    margin:0px;
+}
+.kora-test-banner h5{
+    color:#fff;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 100;
+}
+
 
 .pad-right{
     padding-right: 15px;
